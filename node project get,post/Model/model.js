@@ -2,13 +2,13 @@ const mon = require('mongoose')
 
 const schema1 = mon.Schema(
     {
-        Title : {
+        Name : {
             type : String
         },
-        Author : {
+        section : {
             type : String 
         },
-        Price : {
+        cgpa : {
             type : Number
         }
     }
